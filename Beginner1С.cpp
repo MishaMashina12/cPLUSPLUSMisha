@@ -234,14 +234,14 @@ void TankArmy ()
 
         t ++;
         txSleep (100);
-        //printf ("я убил касулю %d ", t);
+        //printf ("Гї ГіГЎГЁГ« ГЄГ Г±ГіГ«Гѕ %d ", t);
         }
     }
 
 void RocketMove ()
     {
     int t = 0;
-    while (t < 600)
+    while (t < 601)
         {
         txSetFillColor (TX_BLACK);
         txClear ();
