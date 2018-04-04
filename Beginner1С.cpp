@@ -11,6 +11,7 @@ void TankandJohnMove ();
 void TankAttack ();
 void TankArmy ();
 void RocketMove ();
+void CarDraw ();
 
 int main()
     {
@@ -32,7 +33,8 @@ int main()
     //TankandJohnMove ();
     //TankAttack ();
     //TankArmy ();
-    RocketMove ();
+    //RocketMove ();
+    CarDraw ();
     }
 
 void StoneDraw (int x, int y)                       //
@@ -251,6 +253,20 @@ void RocketMove ()
         txSleep (100);
         t ++;
         }
+    }
+
+void CarDraw ()
+    {
+    txLine (495, 366, 563, 306);
+    txLine (563, 306, 733, 359);
+    txLine (733, 359, 738, 493);
+    txLine (738, 440, 704, 440);
+    txCircle (678, 440, 22);
+    txLine (656, 440, 476, 440);
+    txCircle (445, 440, 28);
+    txLine (412, 440, 372, 440);
+    txLine (372, 440, 387, 369);
+    txLine (387, 369, 497, 363);
     }
 
 
